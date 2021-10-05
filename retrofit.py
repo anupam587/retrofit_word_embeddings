@@ -3,6 +3,7 @@ import numpy
 from copy import deepcopy
 import re
 import sys
+import os
 
 # retrofitting word vectors using semantic lexicon
 def retrofit_model(word_vec_data, lexicon_data, total_iteration):
